@@ -21,8 +21,8 @@
 
 ### Stemming
 - **Porter Stemmer**: Produces the root form of tokens (e.g., *give* from *giving*).
-- **Lancaster Stemmer**: More aggressive, producing core roots (e.g., *giv* from *giving*).
-- **Snowball Stemmer**: Similar to Porter, supports multiple languages.
+- **Lancaster Stemmer**: A more aggressive stemmer, producing core roots (e.g., *giv* from *giving*).
+- **Snowball Stemmer**: Similar to Porter but supports multiple languages like English, Spanish, French, etc.
 
 ### Lemmatization
 - Converts words to their base or dictionary form (e.g., *achieve* → *achieve*).
@@ -42,13 +42,13 @@
 
 ### NLP Algorithms | Word Embedding Algorithms
 
-- **Bag of Words (BoW)**
-  - Represents text as a collection of word counts, ignoring order.
+ **Bag of Words (BoW)**
+  - Represents text as a collection of individual word counts, ignoring grammar and word order but preserving multiplicity.
 
 - **TF-IDF (Term Frequency–Inverse Document Frequency)**
-  - Evaluates word importance in a document based on frequency and rarity.
+  - A statistical measure used to evaluate how important a word is to a document in a collection, balancing frequency with uniqueness.
 
 - **Word2Vec**
-  - Neural approach for word embeddings.
-  - **CBOW (Continuous Bag of Words)**: Predicts a word from its context.
-  - **Skip-Gram**: Predicts context from a given word.
+  - A neural network-based approach to learn word embeddings (vector representations of words).
+  - **CBOW (Continuous Bag of Words)**: Predicts the target word from surrounding context words.
+  - **Skip-Gram**: Predicts surrounding context words from a target word.
