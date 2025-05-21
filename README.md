@@ -50,7 +50,13 @@
 
 - **Word2Vec**
   - A neural network-based approach to learn word embeddings (vector representations of words).
-  - **CBOW (Continuous Bag of Words)**: Predicts the target word from surrounding context words.
-  - **Skip-Gram**: Predicts surrounding context words from a target word.
+  - **CBOW (Continuous Bag of Words)**
+    - **How It Works**: CBOW predicts a target word given a context of surrounding words.
+    - **For instance**, in the sentence "The cat sits on the mat," if you take the context words 
+       "The," "cat," "on," "the," and "mat," CBOW would predict the target word "sits."
+      
+  - **Skip-Gram**
+    - **How It Works**: Skip-gram does the opposite of CBOW; it uses a target word to predict its surrounding context words. For example, given the target word "sits," it                             would try to predict the context words around it.
+    - **For instance**, Given the target word "sits," Skip-gram might predict the context words ("The," "cat," "on," "the," "mat").
 
      ![image](https://github.com/user-attachments/assets/b50a1f41-4511-4ae8-8099-3b37e4a7f9cb)
