@@ -52,3 +52,5 @@
   - A neural network-based approach to learn word embeddings (vector representations of words).
   - **CBOW (Continuous Bag of Words)**: Predicts the target word from surrounding context words.
   - **Skip-Gram**: Predicts surrounding context words from a target word.
+
+![image](https://github.com/user-attachments/assets/b50a1f41-4511-4ae8-8099-3b37e4a7f9cb)
