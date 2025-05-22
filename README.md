@@ -60,3 +60,82 @@
     - **For instance**, Given the target word "sits," Skip-gram might predict the context words ("The," "cat," "on," "the," "mat").
 
      ![image](https://github.com/user-attachments/assets/b50a1f41-4511-4ae8-8099-3b37e4a7f9cb)
+
+
+ ## 📚 Chunking in NLP
+
+Chunking refers to the process of dividing text into meaningful segments, typically called **chunks**.
+
+### Types of Chunks
+- **Noun Phrase (NP)**: Groups of words that function as a noun  
+  _Example_: "the big red ball"
+- **Verb Phrase (VP)**: Consists of the main verb and any accompanying words  
+  _Example_: "is running quickly"
+- **Prepositional Phrase (PP)**: Phrases that begin with a preposition  
+  _Example_: "under the table"
+
+---
+
+## 🤖 Chunking in LLMs
+
+In the context of **Large Language Models (LLMs)**, *chunking* refers to a method of processing input text in smaller, manageable segments or "chunks".  
+This is particularly useful for handling long inputs that exceed a model’s maximum token limit.
+
+---
+
+## 🧠 Transformers in NLP
+
+The term **"transformers"** refers to a deep learning architecture introduced in the paper _"Attention is All You Need"_ by Vaswani et al., 2017.  
+Transformers have since become the foundation for many state-of-the-art NLP models.
+
+### Popular Transformer Models & Variants
+
+1. **BERT** (Bidirectional Encoder Representations from Transformers)  
+   - Understands context from both directions using masked language modeling.
+
+2. **GPT** (Generative Pre-trained Transformer)  
+   - Developed by OpenAI. Autoregressive model used primarily for text generation (e.g., GPT-2, GPT-3, GPT-4).
+
+3. **T5** (Text-to-Text Transfer Transformer)  
+   - Treats every NLP task as a text-to-text problem, offering great flexibility.
+
+4. **RoBERTa** (A Robustly Optimized BERT Pretraining Approach)  
+   - An optimized variant of BERT trained with more data and refined techniques.
+
+5. **XLNet**  
+   - Combines BERT’s bidirectionality with autoregressive features for improved dependency modeling.
+
+6. **ALBERT** (A Lite BERT)  
+   - Reduces model size while maintaining performance, optimized for efficiency.
+
+7. **DistilBERT**  
+   - A smaller, faster version of BERT that retains 95% of its performance.
+
+8. **ERNIE** (Enhanced Representation through kNowledge Integration)  
+   - Integrates external knowledge to boost language understanding. Developed by Baidu.
+
+9. **ELECTRA**  
+   - Trains more efficiently than BERT by predicting replaced tokens instead of masking them.
+
+10. **DeBERTa** (Decoding-enhanced BERT with Disentangled Attention)  
+    - Uses disentangled attention to improve performance on a variety of tasks.
+
+11. **Vision Transformers (ViT)**  
+    - Adapts the transformer model for image classification by treating images as sequences of patches.
+
+12. **BART** (Bidirectional and Auto-Regressive Transformers)  
+    - Combines BERT-style encoding with GPT-style decoding. Great for summarization and translation.
+
+13. **LayoutLM**  
+    - Designed for document understanding tasks, incorporating text layout and position information.
+
+14. **Swin Transformer**  
+    - A hierarchical vision transformer for image classification and detection tasks.
+
+15. **Transformer-XL**  
+    - Introduces recurrence for better handling of long sequences.
+
+---
+
+### 🚀 Note
+> The field of transformers is rapidly evolving with ongoing research and newer models constantly being introduced.
