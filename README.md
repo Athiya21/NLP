@@ -139,3 +139,46 @@ Transformers have since become the foundation for many state-of-the-art NLP mode
 
 ### 🚀 Note
 > The field of transformers is rapidly evolving with ongoing research and newer models constantly being introduced.
+
+---
+### spacy
+    -- spaCy is a powerful and efficient open-source library for advanced Natural Language Processing (NLP) in Python. It is designed specifically for production use, 
+         providing fast and accurate tools to process and analyze large volumes of text. spaCy supports tasks such as tokenization, part-of-speech tagging, named entity 
+         recognition, dependency parsing, and more, making it a popular choice for building NLP applications.
+
+**Setting Up spaCy**
+
+      - Install spaCy using pip.
+        
+      -  Download the English language model using the command:
+        python -m spacy download en_core_web_sm
+        
+      - To verify the installation and get spaCy info, run:
+        python -m spacy info
+        
+      - (Optional) If you face any issues related to Intel MKL, reinstall MKL by running:
+        pip install --force-reinstall mkl
+        
+      - Run the info command again to confirm the setup:
+        python -m spacy info
+
+ **Setting Up spaCy in VS Code**
+      - Open the integrated terminal in VS Code by pressing Ctrl + ~ (tilde).
+        
+      - Activate your Conda environment (if using Conda) by typing:
+
+      - python -m ipykernel install --user --name spacyenv --display-name "Python (spacyenv)
+        
+      - conda activate spacyenv
+        
+      - Restart VS Code to apply the environment changes.
+        
+      - Select the Python interpreter for your environment:
+        
+      - Press Ctrl + Shift + P to open the Command Palette.
+        
+      - Search for and select Python: Select Interpreter.
+        
+      - Choose your Conda environment (for example, spacyenv (Python 3.x.x)).
+        
+            
