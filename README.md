@@ -213,12 +213,20 @@ Transformers have since become the foundation for many state-of-the-art NLP mode
 ### NLU Stream
 
   **To run the NLU Stream project, please install the following Python packages:**
-      > pip install streamlit
-      > pip install gtts
-      > pip install langdetect
-      > pip install googletrans
-      > pip install pycountry
-      > pip install wordcloud
-      > pip install nltk
-      > pip install googletrans==4.0.0-rc1
-      > pip install deep_translator
+      - pip install streamlit
+      
+      - pip install gtts
+      
+      - pip install langdetect
+      
+      - pip install googletrans
+      
+      - pip install pycountry
+      
+      - pip install wordcloud
+      
+      - pip install nltk
+      
+      - pip install googletrans==4.0.0-rc1
+      
+      - pip install deep_translator
