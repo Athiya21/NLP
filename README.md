@@ -180,5 +180,45 @@ Transformers have since become the foundation for many state-of-the-art NLP mode
       - Search for and select Python: Select Interpreter.
         
       - Choose your Conda environment (for example, spacyenv (Python 3.x.x)).
-        
-            
+
+---
+
+### Multiple Language Translation
+  
+  **To set up the environment for multiple language translation, install the following Python packages:**
+
+     - Install Streamlit for building interactive web apps.
+      
+     - Install mtranslate for language translation.
+      
+     - Install gTTS (Google Text-to-Speech) for converting text to speech.
+      
+     - Install pycountry to access ISO country and language information.
+      
+     - Install wordcloud for generating word cloud visualizations.
+
+**You can install these packages using the following commands in your terminal or command prompt:**
+
+    - pip install streamlit
+
+    - pip install mtranslate
+    
+    - pip install gtts
+    
+    - pip install pycountry
+    
+    - pip install wordcloud
+
+---
+### NLU Stream
+
+  **To run the NLU Stream project, please install the following Python packages:**
+      > pip install streamlit
+      > pip install gtts
+      > pip install langdetect
+      > pip install googletrans
+      > pip install pycountry
+      > pip install wordcloud
+      > pip install nltk
+      > pip install googletrans==4.0.0-rc1
+      > pip install deep_translator
