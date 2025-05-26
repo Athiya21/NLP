@@ -61,7 +61,7 @@
 
      ![image](https://github.com/user-attachments/assets/b50a1f41-4511-4ae8-8099-3b37e4a7f9cb)
 
-
+---
  ## 📚 Chunking in NLP
 
 Chunking refers to the process of dividing text into meaningful segments, typically called **chunks**.
