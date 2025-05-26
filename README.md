@@ -213,6 +213,7 @@ Transformers have since become the foundation for many state-of-the-art NLP mode
 ### NLU Stream
 
   **To run the NLU Stream project, please install the following Python packages:**
+  
       - pip install streamlit
       
       - pip install gtts
