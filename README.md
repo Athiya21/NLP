@@ -231,3 +231,30 @@ Transformers have since become the foundation for many state-of-the-art NLP mode
       - pip install googletrans==4.0.0-rc1
       
       - pip install deep_translator
+
+
+---
+
+### XML Scraping & NLP Processing
+    - This project demonstrates how to effectively scrape and clean XML files using Python libraries like xml.etree.ElementTree, BeautifulSoup, and Natural Language 
+     Processing (NLP) techniques.
+    
+  **📌 Features**
+      
+      - 🗂️ Parse raw XML files
+        
+      - 🧼 Clean and extract structured data
+        
+      - 🔍 Preprocess text using NLP libraries
+        
+      - 🧠 Ready for downstream tasks (e.g., classification, NER)
+      
+  **🛠️ Technologies Used**
+  
+        - xml.etree.ElementTree – Standard Python library for parsing XML
+        
+        - BeautifulSoup – For flexible parsing and cleaning of messy XML/HTML
+        
+        - nltk – For tokenization, stopword removal, lemmatization
+
+---
